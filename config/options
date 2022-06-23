@@ -1,0 +1,11 @@
+_________________________________________________________
+|Options               |Systems      |Command            |
+|                      |             |                   |
+|1:)Social Engineering |Linux,Android|use exploit_social |
+|2:)Web Site Clone     |Linux,Android|use web_clone      |
+|3:)Threaten           |Linux,Android|use web_threaten   |
+|4:)Web Page Attack    |Linux,Android|use web_page_attack|
+|5:)Requests Tools     |Linux,Android|use py_tools       |
+|6:)Get Ip Adress      |Linux,Android|use web_ip         |
+|7:)Global Positioning |Linux,Android|use web_gp         |
+|______________________|_____________|___________________|

@@ -1,0 +1,10 @@
+
+|操作                系统             命令                
+|                 
+|1:社会工程学 	Linux,Android   use exploit_social
+|2:网站克隆 	Linux,Android   use web_clone  
+|3:恐吓 	Linux,Android   use web_threaten 
+|4:网页攻击 	Linux,Android   use web_page_attack
+|5:请求工具 	Linux,Android   use py_tools 
+|6:获取IP地址 	Linux,Android   use web_ip
+|7:全球定位   	Linux,Android   use web_gp
