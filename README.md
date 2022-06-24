@@ -11,4 +11,4 @@ ssh {用户名}@{需要连接的IP} wget https://gitee.com/LinWin-Cloud/packages
 
 # 更新日志
 1. v1.0 发布Setool ToGo 2022.6.23
-2. v1.1 更新源代码
+2. v1.1 更新源代码 2022.6.24
