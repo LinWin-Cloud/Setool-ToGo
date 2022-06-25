@@ -7,8 +7,9 @@
 ##### 源代码仓库不提供客户端终端用于远程社工，但是可以复制运行如下代码
 ##### 本项目的远程网络安全测试控制终端内置于Setool Main发型版本中
 
-ssh {用户名}@{需要连接的IP} wget https://gitee.com/LinWin-Cloud/packages.LinWinCloud.gitee/raw/master/Setool-ToGo/packages/Setool-ToGo.zip && python3 setool.py
+ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && wget https://gitee.com/LinWin-Cloud/packages.LinWinCloud.gitee/raw/master/Setool-ToGo/packages/Setool-ToGo.zip && unzip Setool-ToGo.zip && python3 setool.py
 
 # 更新日志
 1. v1.0 发布Setool ToGo 2022.6.23
 2. v1.1 更新源代码 2022.6.24
+3. v1.2 更新源代码、修复源码错误 2022.6.25
