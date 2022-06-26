@@ -16,3 +16,4 @@ ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && git clone https
 1. v1.0 发布Setool ToGo 2022.6.23
 2. v1.1 更新源代码 2022.6.24
 3. v1.2 更新源代码、修复源码错误 2022.6.25
+4. v1.3 更新配置文件、修复文档错误
