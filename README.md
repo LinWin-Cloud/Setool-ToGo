@@ -10,7 +10,7 @@
 ###### 通过Gitee代码仓库内远程下载ZIP包（速度较快，无法获取更新）
 ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && wget https://gitee.com/LinWin-Cloud/packages.LinWinCloud.gitee/raw/master/Setool-ToGo/packages/Setool-ToGo.zip && unzip Setool-ToGo.zip && python3 setool.py
 ###### 通过Github远程仓库克隆（速度较慢，频繁不定期更新）
-ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && git clone https://github.com/LinWin-Cloud/Setool-ToGo.git && python3 setool.py
+ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && git clone https://github.com/LinWin-Cloud/Setool-ToGo.git && cd Setool-ToGo && python3 setool.py
 
 # 更新日志
 1. v1.0 发布Setool ToGo 2022.6.23
