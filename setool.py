@@ -81,11 +81,6 @@ def main():
         payload.payload_web_page_attack()
         main()
         return True
-    if options == "payload web_console -info":
-        import payload as payload
-        payload.payload_web_console()
-        main()
-        return True
     if options == "use web_console":
         import os
         if os.name == "posix":
@@ -100,30 +95,6 @@ def main():
             return True
         else:
             print("[!]Unknow Optioning System")
-    
-    if options == "payload exploit_virus -info":
-        def payload_exploit_virus():
-            lang = open("config/lang" , "r+")
-            langset = lang.read()
-            if langset == "zh-cn":
-                openpaylaod = open("config/payload/exploit_virus-zh" , "r+")
-                readpayload = openpaylaod.read()
-                print(readpayload)
-                main()
-                return True
-            else:
-                openpaylaod = open("config/payload/exploit_virus-en" , "r+")
-                readpayload = openpaylaod.read()
-                print(readpayload)
-                main()
-                return True
-        payload_exploit_virus()
-
-    if options == "use exploit_virus":
-        #use virus attack
-        import exploit_virus as exploit_virus
-        exploit_virus.exploit_virus()
-        return True
 
     if options == "use shodan_search":
         import shodan_search as shodan_search
