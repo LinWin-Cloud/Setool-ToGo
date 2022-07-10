@@ -7,7 +7,7 @@
 def main():
     print("")
     options = input("Setool-Master~/Main Console//")
-    if options == "help":
+    if options == "help": 
         a=open("config/help" , "r+")
         b=a.read()
         print(b)
