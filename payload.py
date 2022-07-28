@@ -1,8 +1,5 @@
 
 
-from asyncore import read
-from operator import truediv
-
 
 def payload_web_page_attack():
     #read the language config
