@@ -1,12 +1,12 @@
 function logon() {
     var usersname = document.getElementById("usersname").value;
     var pwd = document.getElementById("pwd").value;
-    if (usersname == "") {
-        alert("ÓÃ»§Ãû²»¿ÉÎª¿Õ")
+    if (usersname == "") { 
+        alert("ç”¨æˆ·åä¸å¯ä¸ºç©º")
         return false
     }
     if (pwd == "") {
-        alert("ÃÜÂë²»¿ÉÎª¿Õ")
+        alert("å¯†ç ä¸å¯ä¸ºç©º")
         return false
     }
     else {
