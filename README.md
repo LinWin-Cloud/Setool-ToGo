@@ -12,7 +12,7 @@ ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && wget https://gi
 ###### 通过Github远程仓库克隆（速度较慢，频繁不定期更新）
 ssh {用户名}@{需要连接的IP} mkdir remote && cd remote && git clone https://github.com/LinWin-Cloud/Setool-ToGo.git && cd Setool-ToGo && python3 setool.py
 
-# 更新日志
+# 更新日志 
 1. v1.0 2022.6.23 发布Setool ToGo 
 2. v1.1 2022.6.24 更新源代码 
 3. v1.2 2022.6.25 更新源代码、修复源码错误 
